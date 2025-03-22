@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .schemes-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .scheme-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
